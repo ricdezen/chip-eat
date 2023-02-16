@@ -30,6 +30,7 @@ typedef struct {
     // 4k of memory.
     uint8 *memory;
     uint8 *display;
+    uint8 display_dirty;
 } Chip8;
 
 void Chip8_init(Chip8 *chip);

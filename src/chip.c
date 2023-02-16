@@ -1,4 +1,4 @@
-#include "chip.h"
+#include "chip.hpp"
 
 #include <stdlib.h>
 #include <string.h>
